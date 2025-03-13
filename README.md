@@ -6,7 +6,7 @@
 ## 사용방법
 
 ```
-$ go get github.com/LoperLee/golang-hangul-toolkit
+$ go get github.com/YiYuhki/golang-hangul-toolkit
 ```
 
 ## 샘플
@@ -64,12 +64,12 @@ fmt.Println(hangul.GetJosa("커피", hangul.EUN_NEUN))
 
 ## 문서
 
-[Document](https://godoc.org/github.com/LoperLee/golang-hangul-toolkit)
+[Document](https://godoc.org/github.com/YiYuhki/golang-hangul-toolkit)
 
 ## 예제
 
-[Example](https://github.com/LoperLee/golang-hangul-toolkit/blob/master/example/main.go)
+[Example](https://github.com/YiYuhki/golang-hangul-toolkit/blob/master/example/main.go)
 
 ## 라이선스
 
-[MIT License](https://github.com/LoperLee/golang-hangul-toolkit/blob/master/LICENSE)
+[MIT License](https://github.com/YiYuhki/golang-hangul-toolkit/blob/master/LICENSE)
