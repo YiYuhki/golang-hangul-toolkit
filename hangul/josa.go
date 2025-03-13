@@ -1,5 +1,7 @@
 package hangul
 
+import "regexp"
+
 var josaList = [][]string{{"은", "는"}, {"이", "가"}, {"을", "를"}, {"과", "와"}, {"이다", "다"}, {"으로", "로"}, {"률", "율"}}
 
 // 조사 타입 지정
@@ -17,7 +19,8 @@ const (
 )
 
 func GetJosa(keyword string, josa Josa) string {
-	ret := keyword
+	var re = regexp.MustCompile(`\([^)]+\)`)
+	ret = re.ReplaceAllString(keyword, "")
 	pic := josaList[josa]
 	han := ExtractHangul(keyword)
 	if han[len(han)-1].Jongsung != "" {
