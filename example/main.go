@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/LoperLee/golang-hangul-toolkit/hangul"
+	"github.com/YiYuhki/golang-hangul-toolkit/hangul"
 )
 
 func main() {
